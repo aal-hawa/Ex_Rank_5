@@ -9,7 +9,7 @@ Dummy::~Dummy()
 
 }
 
-Dummy *Dummy::clone()const
+ATarget *Dummy::clone()const
 {
 	return new Dummy();
 }
